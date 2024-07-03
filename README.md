@@ -8,7 +8,7 @@ Oparta jest o framework PHP [Laravel 11](https://laravel.com).
 1. [Eksporter KART](#eksporter-kart)
 2. [Screenshots](#screenshots)
 3. [Możliwości](#możliwości)
-4. [Opis działania aplikacji Eksporter KART - tutaj](#opis-działania-aplikacji-eksporter-kart---tutaj)
+4. [Opis działania aplikacji Eksporter KART - tutaj](OPIS.md)
 5. [Instalacja automatyczna za pomocą Packera](#instalacja-automatyczna-za-pomocą-packera)
    - [Czynności wstępne](#czynności-wstępne)
    - [Konfiguracja sieci](#konfiguracja-sieci)
