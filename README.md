@@ -345,9 +345,9 @@ Instalacja oprogramowanie Microsoft, niezbędnego do pracy z MS SQL Server:
 
    ```sh
    sudo mysql -u root <<EOF
-   CREATE DATABASE \`eksporter-kart\`;
+   CREATE DATABASE `eksporter-kart`;
    CREATE USER 'eksporter-kart'@'localhost' IDENTIFIED BY '0K3Exp0ne';
-   GRANT ALL PRIVILEGES ON \`eksporter-kart\`.* TO 'eksporter-kart'@'localhost';
+   GRANT ALL PRIVILEGES ON `eksporter-kart`.* TO 'eksporter-kart'@'localhost';
    FLUSH PRIVILEGES;
    EOF
    ```
