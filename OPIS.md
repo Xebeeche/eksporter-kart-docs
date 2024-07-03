@@ -266,7 +266,7 @@ Istnieje również możliwość włączenia weryfikacji dwuetapowej (`2FA`).
 
   Przycisk `Uruchom` pojawia się wtedy, gdy eksport ma status `Gotowy` lub `Niepowodzenie`. Kliknięcie w rekord eksportu, przenosi do widoku `Podgląd eksportu`, gdzie widać więcej informacji dotyczących eksportu.
   
-  ![Widok Podgląd eksportu](Screenshots/eksport_podglad.png)](Screenshots/
+  ![Widok Podgląd eksportu](Screenshots/eksport_podglad.png)
 
   *STATUS `Niepowodzenie` BĘDZIE MIAŁ KAŻDY EKSPORT, KTÓREGO CHOCIAŻ JEDNA WIĄZKA, NIE ZOSTAŁA WYEKSPORTOWANA.*
 
