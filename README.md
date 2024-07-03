@@ -102,7 +102,7 @@ Przed uruchomieniem procesu Packer, wykonaj poniższe kroki:
 1. Sklonuj repozytorium z plikami Packer i przejdź do katalogu:
 
    ```sh
-   git clone https://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:x-oauth-basic@github.com/xebeeche/eksporter-kart-deploy
+   git clone https://github_pat_SEKRET_DOSTARCZONY_PRZEZ_CKE:x-oauth-basic@github.com/xebeeche/eksporter-kart-deploy
    cd eksporter-kart-deploy
    ```
 
@@ -355,7 +355,7 @@ Instalacja oprogramowanie Microsoft, niezbędnego do pracy z MS SQL Server:
    ```sh
    sudo -E chmod 0777 /var/www
    cd /var/www
-   git clone https://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:x-oauth-basic@github.com/xebeeche/eksporter-kart
+   git clone https://github_pat_SEKRET_DOSTARCZONY_PRZEZ_CKE:x-oauth-basic@github.com/xebeeche/eksporter-kart
    cd eksporter-kart
    cp ./.env.example ./.env
    composer install
