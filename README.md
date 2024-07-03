@@ -101,18 +101,20 @@ Przed uruchomieniem procesu Packer, wykonaj poniższe kroki:
 
 1. Sklonuj repozytorium z plikami Packer i przejdź do katalogu:
 
+   Do wykonania tego kroku, niezbędne jest posiadanie `github_pat_SEKRET_DOSTARCZONY_PRZEZ_CKE`, bez którego dostęp do repozytorium jest niemożliwy.
+
    ```sh
    git clone https://github_pat_SEKRET_DOSTARCZONY_PRZEZ_CKE:x-oauth-basic@github.com/xebeeche/eksporter-kart-deploy
    cd eksporter-kart-deploy
    ```
 
-2. Inicjalizacja Packer w celu pobrania wymaganych pluginów:
+3. Inicjalizacja Packer w celu pobrania wymaganych pluginów:
 
    ```sh
    packer init eksporter-kart.pkr.hcl
    ```
 
-3. Jeśli używasz Proxmox VE, pobierz obraz ISO Debiana na serwer PVE (adres URL podany w zmiennej `iso`):
+4. Jeśli używasz Proxmox VE, pobierz obraz ISO Debiana na serwer PVE (adres URL podany w zmiennej `iso`):
 
    ```sh
    wget https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-12.5.0-amd64-netinst.iso
