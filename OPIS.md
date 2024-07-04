@@ -181,7 +181,7 @@ Istnieje również możliwość włączenia weryfikacji dwuetapowej (`2FA`).
 
   ```xml
   <Wiazka>
-    <NazwaWiazka>Export`ONE`_40001</NazwaWiazka>
+    <NazwaWiazka>ExportONE_40001</NazwaWiazka>
     <IdWiazka>400011</IdWiazka>
     <LiczbaKart>1</LiczbaKart>
     <Karty>
