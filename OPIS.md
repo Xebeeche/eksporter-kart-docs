@@ -151,7 +151,7 @@ Istnieje również możliwość włączenia weryfikacji dwuetapowej (`2FA`).
 
   W procesie `Przygotowania eksportu` aplikacja wykonuje następujące czynności:
   
-- Tworzy wpisy bazie danych (tabele: `exports`, `bundles`, `cards`, `card_pages`) odpowiadające parametrom podanym w formularzu.
+- Tworzy wpisy w bazie danych (tabele: `exports`, `bundles`, `cards`, `card_pages`) odpowiadające parametrom podanym w formularzu.
   Wszystkie metadane związane z kartą zdającego i jej stronami, są zapisywane w bazie danych.
 - Kopiuje pliki kart odpowiedzi do udziału `SAMBA`, gdzie linia ABBYY zapisuje zeskanowane karty.
 
