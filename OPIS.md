@@ -310,7 +310,7 @@ Istnieje również możliwość włączenia weryfikacji dwuetapowej (`2FA`).
   ```php
   $data = [
     'xmlfile' => $bundle->xml,
-    'Id_`ONE`_stan_import_xml' => 1,
+    'Id_ONE_stan_import_xml' => 1,
     ];
   ```
 
