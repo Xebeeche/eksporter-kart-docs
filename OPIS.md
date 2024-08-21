@@ -285,21 +285,21 @@ Istnieje również możliwość włączenia weryfikacji dwuetapowej (`2FA`).
   **Struktura tabeli (DDL) `ONE_XML`.**
 
   ```sql
-  CREATE TABLE "`ONE`_XML"(
+  CREATE TABLE "ONE_XML"(
     "ID" int IDENTITY(1,1) NOT NULL,
     xmlfile xml,
-    "Id_`ONE`_stan_import_xml" int NOT NULL DEFAULT ((1)),
+    "Id_ONE_stan_import_xml" int NOT NULL DEFAULT ((1)),
     err_nr nvarchar(50),
     err_message nvarchar(-1),
     conversation_handle_id nvarchar(64),
     "Id_wiazki" nvarchar(6),
-    CONSTRAINT FK_Id_`ONE`_stan_import_xml FOREIGN key("Id_`ONE`_stan_import_xml") REFERENCES "`ONE`_stan_import_xml"(id)
+    CONSTRAINT FK_Id_ONE_stan_import_xml FOREIGN key("Id_ONE_stan_import_xml") REFERENCES "ONE_stan_import_xml"(id)
   );
-  CREATE INDEX `ONE`_XML_HANDLE_ID_IDX ON "`ONE`_XML"("conversation_handle_id");
-  CREATE INDEX `ONE`_XML_WIAZKI_ID_IDX ON "`ONE`_XML"("Id_wiazki");
+  CREATE INDEX ONE_XML_HANDLE_ID_IDX ON "ONE_XML"("conversation_handle_id");
+  CREATE INDEX ONE_XML_WIAZKI_ID_IDX ON "ONE_XML"("Id_wiazki");
   ```
 
-  ![Struktura tabeli `ONE`_XML](Screenshots/one_xml.png)
+  ![Struktura tabeli `ONE_XML`](Screenshots/one_xml.png)
 
   Rysunek 15. Struktura tabeli `ONE_XML`.
 
