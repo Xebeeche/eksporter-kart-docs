@@ -404,6 +404,8 @@ Instalacja oprogramowanie Microsoft, niezbędnego do pracy z MS SQL Server:
 
     charset utf-8;
 
+    client_max_body_size 10M;
+
     location / {
         try_files $uri $uri/ /index.php?$query_string;
     }
