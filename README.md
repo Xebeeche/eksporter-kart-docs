@@ -36,11 +36,11 @@ Oparta jest o framework PHP [Laravel 11](https://laravel.com).
 
 [Repozytoria kart odpowiedzi](Screenshots/repozytoria.png)
 
-[Nowe repozytorium]((Screenshots)/repozytorium_nowe.png)
+[Nowe repozytorium](Screenshots/repozytorium_nowe.png)
 
 [Edycja repozytorium](Screenshots/akcje_masowe.png)
 
-[Eksporty kart odpowiedzi]([Screenshots](Screenshots)/eksporty.png)
+[Eksporty kart odpowiedzi](Screenshots/eksporty.png)
 
 [Nowy eksport](Screenshots/eksport_przygotowanie.png)
 
